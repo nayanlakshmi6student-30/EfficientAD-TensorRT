@@ -1,2 +1,44 @@
-# EfficientAD-TensorRT
-EfficientAD deployment and TensorRT optimization on NVIDIA Jetson Orin
+* EfficientAD TensorRT Deployment on Jetson Orin *
+
+** Project Objective **
+
+Deploy and optimize EfficientAD anomaly detection model using NVIDIA TensorRT on Jetson Orin for high performance edge inference.
+
+** Workflow **
+
+1.Dataset Preparation(MVTec AD).
+2.EfficientAD training.
+3.ONNX Export.
+4.TensorRT Conversion.
+5.Benchmarking.
+6.Documentation.
+
+** Dataset **
+
+-MVTec AD
+-Classes Used:
+    -Cable
+    -Hazel Nut
+
+** Hardware **
+
+NVIDIA Jetson Orin
+
+** FrameWorks **
+
+-PyTorch
+-ONNX
+-TensorRT
+
+** Results **
+
+| Metric | Value |
+|----------|----------|
+| Throughput | 164.47 FPS |
+| Mean Latency | 6.84 ms |
+| GPU Compute Time | 6.06 ms |
+| Engine Size | 8.5 MB |
+
+** Status **
+
+Deployment Completed
