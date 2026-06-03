@@ -42,3 +42,6 @@ Deploy and optimize the EfficientAD anomaly detection model using NVIDIA TensorR
 ## Status
 
  Deployment Completed
+
+## Drive Link for Model
+
