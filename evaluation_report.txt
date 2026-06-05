@@ -1,0 +1,66 @@
+=========================================================
+     DHVANI INTERNSHIP: ANOMALY DETECTION EVALUATION     
+=========================================================
+
+MODEL CONFIGURATION: Small Model Variant (mvtec_ad_small.json)
+============================================================
+Category: BOTTLE
+  - Classification AUROC : 99.92%
+  - Localization AU-PRO  : 95.19%
+  - Accuracy             : 98.80%
+  - Precision            : 100.00%
+  - F1-Score             : 99.20%
+
+  Confusion Matrix:
+    [ Predicted NORMAL ] -> TN:  20 | FP (Overkill):   0
+    [ Predicted DEFECT ] -> FN:   1 | TP (Detected):  62
+    (Total Ground Truth -> Normal: 20, Anomalous: 63)
+----------------------------------------
+
+Category: CABLE
+  - Classification AUROC : 93.52%
+  - Localization AU-PRO  : 88.23%
+  - Accuracy             : 84.67%
+  - Precision            : 98.59%
+  - F1-Score             : 85.89%
+
+  Confusion Matrix:
+    [ Predicted NORMAL ] -> TN:  57 | FP (Overkill):   1
+    [ Predicted DEFECT ] -> FN:  22 | TP (Detected):  70
+    (Total Ground Truth -> Normal: 58, Anomalous: 92)
+----------------------------------------
+
+
+############################################################
+
+MODEL CONFIGURATION: Medium Model Variant (mvtec_ad_medium.json)
+============================================================
+Category: BOTTLE
+  - Classification AUROC : 100.00%
+  - Localization AU-PRO  : 95.72%
+  - Accuracy             : 100.00%
+  - Precision            : 100.00%
+  - F1-Score             : 100.00%
+
+  Confusion Matrix:
+    [ Predicted NORMAL ] -> TN:  20 | FP (Overkill):   0
+    [ Predicted DEFECT ] -> FN:   0 | TP (Detected):  63
+    (Total Ground Truth -> Normal: 20, Anomalous: 63)
+----------------------------------------
+
+Category: CABLE
+  - Classification AUROC : 94.15%
+  - Localization AU-PRO  : 90.35%
+  - Accuracy             : 86.67%
+  - Precision            : 93.90%
+  - F1-Score             : 88.51%
+
+  Confusion Matrix:
+    [ Predicted NORMAL ] -> TN:  53 | FP (Overkill):   5
+    [ Predicted DEFECT ] -> FN:  15 | TP (Detected):  77
+    (Total Ground Truth -> Normal: 58, Anomalous: 92)
+----------------------------------------
+
+
+############################################################
+
