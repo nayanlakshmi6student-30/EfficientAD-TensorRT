@@ -45,7 +45,7 @@ Deploy and optimize the EfficientAD anomaly detection model using NVIDIA TensorR
 
 ## Drive Link for Model
 
-https://drive.google.com/drive/folders/1hBmay0gJDbirC1sFXNbkrl2YTb-V-X8h?usp=drive_link
+https://drive.google.com/drive/folders/1MJ0bhux6W8ejugKHvqhlnOB7uc3g7u3r?usp=drive_link
 
 ## Model Performance Evaluation Report
 
