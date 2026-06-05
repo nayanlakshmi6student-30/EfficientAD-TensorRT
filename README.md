@@ -47,3 +47,7 @@ Deploy and optimize the EfficientAD anomaly detection model using NVIDIA TensorR
 
 https://drive.google.com/drive/folders/1hBmay0gJDbirC1sFXNbkrl2YTb-V-X8h?usp=drive_link
 
+## Model Performance Evaluation Report
+
+The evaluation_report.txt is a threshold-optimized performance report that translates deep learning probabilities into actionable metrics—Accuracy, Precision, F1-Score, and Confusion Matrices—to validate industrial defect-detection readiness.
+To find the Model Performance Evaluation report please go through evaluation_report.txt file.
